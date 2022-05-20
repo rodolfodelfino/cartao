@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+html {
+    font-family: system-ui;
+    font-size:100%;
+    background-color: #404040;
+    background-size: cover;
+    color: white
+}
+
+body {
+    margin: 0;
+    padding-top: 60px;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+
+#siteHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 60px;
+    background-color: rgba(5, 139, 216, 0.5);
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(4px);
+    }
+
+#siteHeader img{
+    max-height: 30px;
+   
+}
+
+#siteHeader a {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+#siteHeader a:hover{
+    text-shadow: 0px 0 5px #00edff;
+    font-size: large;
+    transition: 0.3s;
+
+    }
+    */
+#sectionBanner{
+    padding: 40px;
+    }
+
+#sectionBanner img {
+padding: 0px;
+margin: 0px;
+    width:100%;
+}
+
+a#linkParticipe{
+    color:yellow;
+    border: 1px solid yellow;
+    padding:  5px 15px;
+    border-radius: 5px;
+}
+
+hr {
+   margin: 0px 20px;
+   }
+
+   h1{
+    font-size: 300%;
+    color: rgb(0, 60, 255);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.linhaParticipe{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+    font-size: 160%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content:space-around;
+
+}
+
+
+
+.txtParticipe1{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+   padding: 20PX;
+    justify-content: space-evenly;
+}
+
+.caixaParticipe{
+    width:300px ;
+    height: 930px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-style: italic;
+    transition: 0.8s;
+    border-radius: 10px;
+    box-shadow:1px 1px 5px 0.5px black;
+
+
+    
+
+}
+
+.caixaParticipe input{
+width: 100%;
+background-color: #39ff14;
+height: 7%;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: large;
+font-weight: bolder;
+text-align: center;
+border-radius: 5px;
+border: 1px solid black;
+margin-top: 10px;
+margin-bottom: 10px;
+cursor: pointer;
+
+
+}
+
+.caixaParticipe img{
+max-width: 200px;
+max-height: 200px;
+
+}
+
+.caixaParticipe:hover{
+    transform: scale(1.1);
+    box-shadow:1px 1px 5px 4px black;
+
+}
+
+
+
+
+
+
+hr {
+    margin-top: 50px;
+   
+    }
+
+
+
+
+footer{
+    background-color: rgba(5, 139, 216, 0.5);
+    padding: 20px;
+    
+    
+}
+
+footer .info{
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+
+
+footer .info img,
+footer.info p { 
+    margin: 20px;
+}
+
+footer .info img{
+    height: 80px;
+}
+
+.copy{
+
+    text-align: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
