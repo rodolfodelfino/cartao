@@ -169,7 +169,7 @@ hr {
 
 footer{
     background-color: rgba(5, 139, 216, 0.5);
-    padding: 20px;
+    padding: 10px;
     
     
 }
@@ -184,11 +184,11 @@ footer .info{
 
 footer .info img,
 footer.info p { 
-    margin: 20px;
+    margin: 5px;
 }
 
 footer .info img{
-    height: 80px;
+    height: 0px;
 }
 
 .copy{
@@ -209,12 +209,26 @@ footer .info img{
 
     }
 
+    H3{
+        font-size: 80%;
+    }
+
+    H5{
+       font-size: 70%;
+    }
+
     button{
         margin-bottom: 40px;
     }
 
     .caixaParticipe{
-        height: 999px;
+        height: 950px;
+    }
+
+    .caixaParticipe:hover{
+        transform: none;
+        box-shadow:1px 1px 5px 4px black;
+    
     }
 
 
