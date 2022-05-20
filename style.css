@@ -37,7 +37,10 @@ body {
     }
 
 #siteHeader img{
-    max-height: 30px;
+    display: flex;
+    max-height: 50px;
+    align-items: center;
+    
    
 }
 
@@ -65,12 +68,6 @@ margin: 0px;
     width:100%;
 }
 
-a#linkParticipe{
-    color:yellow;
-    border: 1px solid yellow;
-    padding:  5px 15px;
-    border-radius: 5px;
-}
 
 hr {
    margin: 0px 20px;
@@ -201,7 +198,27 @@ footer .info img{
 }
 
 
+@media (max-width: 736px) {
+    #siteHeader a {
+        display: none;
+       
+    }
+    
+    H1{
+        font-size: 30px;
 
+    }
+
+    button{
+        margin-bottom: 40px;
+    }
+
+    .caixaParticipe{
+        height: 999px;
+    }
+
+
+}
 
 
 
