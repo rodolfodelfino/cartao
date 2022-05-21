@@ -201,7 +201,10 @@ footer .info img{
     display: flex;
     flex-direction: column;
     margin: 20px;
-    color: black;
+    color: rgb(0, 60, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow:1px 1px 5px 4px black;
 }
 
 #vantagens h4{
@@ -217,6 +220,8 @@ footer .info img{
     margin-top: 30px;
 
 }
+
+
 
 
 @media (max-width: 736px) {
