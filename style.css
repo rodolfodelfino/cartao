@@ -149,7 +149,7 @@ max-height: 200px;
 }
 
 .caixaParticipe:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
     box-shadow:1px 1px 5px 4px black;
 
 }
@@ -195,6 +195,27 @@ footer .info img{
 
     text-align: center;
    
+}
+
+#vantagens{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: black;
+}
+
+#vantagens h4{
+    max-width: 80%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+#vantagens H2{
+    text-align: center;
+    color: rgb(0, 60, 255);
+    margin-bottom: 50px;
+    margin-top: 30px;
+
 }
 
 
