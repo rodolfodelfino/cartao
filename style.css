@@ -170,6 +170,7 @@ hr {
 
 
 footer{
+    
     background-color: rgba(5, 139, 216, 0.5);
     padding: 10px;
     
@@ -179,19 +180,24 @@ footer{
 footer .info{
     display: flex;
     flex-direction: row;
+  
+    justify-content: center;
     
    
 }
 
 
-footer .info img,
-footer.info p { 
-    margin: 5px;
+footer .info img { 
+    padding-right: 40px;
+    height: 65px;
+    margin: 0px;
+    margin-top: 30px;
+
+    
+
 }
 
-footer .info img{
-    height: 0px;
-}
+
 
 .copy{
 
