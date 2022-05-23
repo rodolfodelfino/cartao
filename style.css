@@ -221,6 +221,23 @@ footer .info img{
 
 }
 
+.icone{
+    display: flex;
+    justify-content: start;
+    text-align: left;
+    padding-left: 0PX;
+    margin-left: 0px;
+    
+}
+
+.icone img{
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+
+
 
 
 
