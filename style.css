@@ -94,6 +94,8 @@ hr {
     flex-direction: row;
     margin-top: 70px;
     justify-content:space-around;
+    margin-left: 230px;
+    margin-right: 230px;
 
 }
 
@@ -205,6 +207,8 @@ footer .info img{
     border: 1px solid black;
     border-radius: 5px;
     box-shadow:1px 1px 5px 4px black;
+    margin-left: 230px;
+    margin-right: 230px;
 }
 
 #vantagens h4{
