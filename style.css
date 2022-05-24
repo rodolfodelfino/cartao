@@ -245,7 +245,7 @@ footer .info img {
     height: 18px;
     width: 18px;
     margin-right: 5px;
-    
+
 }
 
 
@@ -285,6 +285,16 @@ footer .info img {
         box-shadow:1px 1px 5px 4px black;
     
     }
+
+    #vantagens{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        color: rgb(0, 60, 255);
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow:1px 1px 5px 4px black;
+        width: 100%;
 
 
 }
