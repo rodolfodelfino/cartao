@@ -58,6 +58,12 @@ body {
     transition: 0.3s;
 
     }
+
+    .maquininhas h2{
+        color: blue;
+        
+
+    }
     
 #sectionBanner{
     padding: 40px;
@@ -84,6 +90,48 @@ hr {
     margin-top: 30px;
 }
 
+.frete h2{
+    font-size: 300%;
+    pad: 30px;
+}
+
+.frete h4{
+    font-size: 200%;
+    padding: 30px;
+
+}
+
+.frete{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    align-items: center;
+    padding: 40px;
+}
+
+.vantagens h2{
+    font-size: 300%;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.vantagens h4{
+    font-size: 200%;
+    padding: 30px;
+
+}
+
+.vantagens{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    align-items: center;
+    padding: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 .linhaParticipe{
     display: flex;
     flex-direction: row;
@@ -95,9 +143,7 @@ hr {
     flex-direction: row;
     margin-top: 70px;
     justify-content:space-around;
-    /* margin-left: 150px;
-    margin-right: 150px; */
-
+  
 }
 
 
@@ -193,23 +239,48 @@ footer .info img {
    
 }
 
-#vantagens{
+.frete{
     display: flex;
     flex-direction: column;
     margin: 20px;
     color: rgb(0, 60, 255);
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow:1px 1px 5px 4px black;
+   
+   
+    
+    
+   
+}
+
+#vantagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    color: rgb(0, 60, 255);
+    
     margin-left: 115px;
     margin-right: 115px;
    
+}
+
+.frete h4{
+    max-width: 80%;
+    margin-left: 50px;
+    margin-bottom: 30px;
 }
 
 #vantagens h4{
     max-width: 80%;
     margin-left: 50px;
     margin-bottom: 30px;
+}
+
+.frete H2{
+    text-align: center;
+    color: rgb(0, 60, 255);
+    margin-bottom: 50px;
+    margin-top: 30px;
+
 }
 
 #vantagens H2{
@@ -246,9 +317,11 @@ footer .info img {
         display: none;
        
     }
+
     
     H1{
         font-size: 30px;
+        max-width: 90%;
 
     }
 
@@ -280,8 +353,10 @@ footer .info img {
         margin-right: 10px;
         margin-left: 10px;
         color: rgb(0, 60, 255);
-        border: 1px solid black;
-        border-radius: 5px;
-        box-shadow:1px 1px 5px 4px black;
         width: 90%;
     }
+
+    .frete{
+        max-width: 90%;
+    }
+}
