@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-padding: 0;
-margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 html {
@@ -45,10 +45,11 @@ body {
 }
 
 #siteHeader a {
-    color: black;
+    color: white;
     text-decoration: none;
     margin: 10px;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 #siteHeader a:hover{
@@ -57,14 +58,14 @@ body {
     transition: 0.3s;
 
     }
-    */
+    
 #sectionBanner{
     padding: 40px;
     }
 
 #sectionBanner img {
-padding: 0px;
-margin: 0px;
+    padding: 0px;
+    margin: 0px;
     width:100%;
 }
 
@@ -106,7 +107,7 @@ hr {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-   padding: 20PX;
+    padding: 20PX;
     justify-content: space-evenly;
 }
 
@@ -120,10 +121,6 @@ hr {
     transition: 0.8s;
     border-radius: 10px;
     box-shadow:1px 1px 5px 0.5px black;
-
-
-    
-
 }
 
 .caixaParticipe input{
@@ -141,7 +138,6 @@ margin-top: 10px;
 margin-bottom: 10px;
 cursor: pointer;
 
-
 }
 
 .caixaParticipe img{
@@ -155,10 +151,6 @@ max-height: 200px;
     box-shadow:1px 1px 5px 4px black;
 
 }
-
-
-
-
 
 
 hr {
@@ -181,10 +173,8 @@ footer .info{
     display: flex;
     flex-direction: row;
     height: 5px;
-  
     justify-content: center;
-    
-   
+      
 }
 
 
@@ -294,22 +284,4 @@ footer .info img {
         border-radius: 5px;
         box-shadow:1px 1px 5px 4px black;
         width: 90%;
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
