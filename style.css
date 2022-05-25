@@ -93,6 +93,10 @@ hr {
 .frete h2{
     font-size: 300%;
     pad: 30px;
+    background-color: #cfdd0b;
+    border-radius: 10px;
+    padding: 30px;
+
 }
 
 .frete h4{
@@ -113,6 +117,8 @@ hr {
     font-size: 300%;
     padding: 30px;
     text-align: center;
+    background-color: #cfdd0b;
+    border-radius: 10px;
 
 }
 
@@ -166,7 +172,7 @@ hr {
     font-style: italic;
     transition: 0.8s;
     border-radius: 10px;
-    box-shadow:1px 1px 5px 0.5px black;
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.1);
 }
 
 .caixaParticipe input{
@@ -194,7 +200,8 @@ max-height: 200px;
 
 .caixaParticipe:hover{
     transform: scale(1.03);
-    box-shadow:1px 1px 5px 4px black;
+    box-shadow: 5px 10px 8px rgba(0,0,0,0.1);
+    
 
 }
 
@@ -251,17 +258,6 @@ footer .info img {
    
 }
 
-#vantagens{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    color: rgb(0, 60, 255);
-    
-    margin-left: 115px;
-    margin-right: 115px;
-   
-}
 
 .frete h4{
     max-width: 80%;
@@ -269,11 +265,6 @@ footer .info img {
     margin-bottom: 30px;
 }
 
-#vantagens h4{
-    max-width: 80%;
-    margin-left: 50px;
-    margin-bottom: 30px;
-}
 
 .frete H2{
     text-align: center;
@@ -283,13 +274,7 @@ footer .info img {
 
 }
 
-#vantagens H2{
-    text-align: center;
-    color: rgb(0, 60, 255);
-    margin-bottom: 50px;
-    margin-top: 30px;
 
-}
 
 .icone{
     display: flex;
