@@ -346,17 +346,54 @@ footer .info img {
         box-shadow:1px 1px 5px 4px black;
     }
 
-    #vantagens{
+    .frete h2{
+        font-size: 100%;
+        pad: 5px;
+    }
+    
+    .frete h4{
+        font-size: 100%;
+        padding: 5px;
+    
+    }
+    
+    .frete{
         display: flex;
         flex-direction: column;
-        margin: 10px;
-        margin-right: 10px;
-        margin-left: 10px;
-        color: rgb(0, 60, 255);
-        width: 90%;
+        color: blue;
+        align-items: center;
+        padding: 5px;
+        max-width: 90%;
     }
 
-    .frete{
+    .vantagens{
+        display: flex;
+        flex-direction: column;
+        color: blue;
+        align-items: center;
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
         max-width: 90%;
+    }
+    
+    .vantagens h2{
+        font-size: 120%;
+        padding: 30px;
+        text-align: center;
+        margin: 10px;
+    
+    }
+    
+    .vantagens h4{
+        font-size: 100%;
+        padding: 5px;
+    
+    }
+
+    .sectionParticipe h1{
+        text-align: center;
+        margin: 10px;
+        
     }
 }
